@@ -95,6 +95,11 @@ body {
   font-weight: bold;
 }
 
+.button a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
 .hero-avatar {
   width: 376px;
   height: 376px;
