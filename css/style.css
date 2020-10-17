@@ -3,10 +3,10 @@
 }
 
 body {
-  background-color: #20202D;
+  background-color: #20202d;
   margin: 0;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -64,7 +64,7 @@ body {
   display: block;
   font-size: 24px;
   line-height: 28px;
-  color: #FFBB01;
+  color: #ffbb01;
   margin-bottom: 15px;
 }
 
@@ -84,8 +84,8 @@ body {
 }
 
 .button {
-  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
-  box-shadow: 0px 4px 0px #B68500;
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+  box-shadow: 0px 4px 0px #b68500;
   border: none;
   border-radius: 5px 5px 10px 10px;
   padding: 24px 42px;
@@ -95,39 +95,55 @@ body {
   font-weight: bold;
 }
 
+.button a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
 .hero-avatar {
   width: 376px;
   height: 376px;
   background-color: #fff;
   border-radius: 50%;
-  background-image: url('../img/avatar.jpg');
+  background-image: url("../img/avatar.jpg");
   background-repeat: no-repeat;
   background-position: center top -15px;
   border: 12px solid #fff;
 }
 
+/* tetechnologies */
 /* features */
-.features {
+.features,
+.technologies {
   background-color: #000;
 }
+.technologies {
+  padding-top: 60px;
+}
 
-.features-block {
+.features-block,
+.technologies-block {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.features-iteam {
+.features-item,
+.technologies-item {
   flex-basis: 30%;
   margin-bottom: 65px;
 }
 
-.features-images {
+.features-images,
+.technologies-images {
   display: block;
   margin-bottom: 22px;
 }
-
-.features-title {
+.technologies-images{
+  width: 20%;
+}
+.features-title,
+.technologies-title {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -135,7 +151,8 @@ body {
   margin-bottom: 16px;
 }
 
-.features-text {
+.features-text,
+.technologies-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
@@ -164,7 +181,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   margin-bottom: 40px;
 }
@@ -200,7 +217,7 @@ body {
 .projects-bullet {
   width: 10px;
   height: 10px;
-  border: 2px solid #FFBB01;
+  border: 2px solid #ffbb01;
   border-radius: 50%;
   display: inline-block;
   margin-left: 5px;
@@ -208,7 +225,7 @@ body {
 }
 
 .projects-bullet-active {
-  background-color: #FFBB01;
+  background-color: #ffbb01;
 }
 
 .project-paragraph {
@@ -223,8 +240,8 @@ body {
 
 /* contacts */
 .contacts-form {
-  background: #FFFFFF;
-  box-shadow: -5px 5px 0px #FFC41D;
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
   border-radius: 5px;
   max-width: 380px;
   padding: 40px 48px;
@@ -241,7 +258,7 @@ body {
 }
 
 .input {
-  background: #F8F8F8;
+  background: #f8f8f8;
   border: none;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
@@ -301,7 +318,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   margin-bottom: 15px;
 }
@@ -321,7 +338,7 @@ body {
   font-size: 15px;
   line-height: 18px;
   text-decoration-line: underline;
-  color: #A5A5A5;
+  color: #a5a5a5;
   margin-top: 70px;
 }
 
@@ -388,7 +405,7 @@ body {
   .hero-subtitle {
     font-size: 18px;
     line-height: 27px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
   }
 
   .hero-header {
@@ -402,7 +419,7 @@ body {
   .hero-title {
     font-size: 29px;
     line-height: 28px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
 
   .hero-description {
@@ -421,20 +438,24 @@ body {
     margin-bottom: 60px;
   }
 
-  .features-iteam {
+  .features-item,
+  .technologies-item {
     flex-basis: 100%;
   }
 
-  .features-images {
+  .features-images,
+  .technologies-images {
     margin: auto;
     margin-bottom: 15px;
   }
 
-  .features-title {
+  .features-title,
+  .technologies-title {
     text-align: center;
   }
 
-  .features-text {
+  .features-text,
+  .technologies-text {
     width: 100%;
     text-align: center;
   }
